@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway";
+
 }
 .topo figure{
     width: 32px;
@@ -50,6 +52,7 @@
     background-image: url("../imagens/bahia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .cabecario-form{
     background-color: #5d15d1;
@@ -91,7 +94,7 @@
 .formulario  fieldset  legend{
     font-size: 22px;
     margin-bottom: 24px;
-    
+
     border-radius: 8px;
     padding: 5px;
     margin: 0;
@@ -135,7 +138,7 @@
     margin: 10px 20px 10px 20px;
     padding: 0 5px 0 5px;
     font-size: 20px;
-    
+
 
     display: flex;
     align-items: center;
@@ -166,12 +169,14 @@
     width: 100%;
     margin-top: 32px;
     padding: 3px;
+    background-color: #80808029;
+    border-radius: 5px;
 }
-.ofertas h2{
+.ofertas h2, .anuncios h2{
     font-size: 20px;
     margin-bottom: 10px;
 }
-.ofertas h3{
+.ofertas h3, .anuncios h3{
     font-size: 16px;
     margin-bottom: 15px;
     font-weight: 100;
@@ -296,7 +301,7 @@
 }
 .elementos-rodape img{
     width: 18px;
-    
+
 }
 .container-rodape h2{
     margin-bottom: 15px;

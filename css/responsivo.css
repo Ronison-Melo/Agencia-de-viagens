@@ -1,0 +1,52 @@
+@media screen and (max-width: 768px){
+    .formulario button{
+        width: 100%;
+    }
+    .background-form{
+        background-size: contain;
+    }
+    .container-fotos{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .ofertas, .anuncios{
+        padding: 20px;
+    }
+    .card-foto, .anuncio-card{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .menor-foto, .maior-foto{
+        width: 100%;
+        height: 325px;
+        margin-top: 15px;
+    }
+    .box-rodape{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-rodape{
+        width: 250px;
+    }
+    .card-foto figcaption{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 540px){
+    .container-elementos{
+        flex-direction: column;
+    }
+    .radio-container, .check-container{
+        flex-direction: column;
+    }
+    .elementos{
+        width: 100%;
+    }
+    .elementos input, .container-elementos select{
+        width: 100%;
+    }
+}
