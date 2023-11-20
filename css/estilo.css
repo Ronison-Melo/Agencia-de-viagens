@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo figure{
+    width: 32px;
+    height: 32px;
+}
+.topo figure img{
+    width: 100%;
+    height: 100%;
+}
+.topo{
+    /* border: 1px solid red; */
+    height: 55px;
+    background-color: #fff;
+
+    display: flex;
+}
+.centraliza{
+    /* border: 1px solid green; */
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.agrupa-topo{
+    display: flex;
+    align-items: center;
+}
+.agrupa-topo p{
+    font-size: 24px;
+    margin-left: 10px;
+    color: #5d15d1;
+}
+
+.area-form{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.agrupa-form{
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+.background-form{
+    background-image: url("../imagens/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecario-form{
+    background-color: #5d15d1;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    color: #fff;
+}
+.cabecario-form figure{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.cabecario-form figure img{
+    width: 100%;
+    height: 100%;
+    rotate: -45deg;
+}
+.formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    font-size: 19px;
+
+    display: flex;
+    flex-direction: column;
+}
+.formulario fieldset{
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(223, 220, 220);
+    margin: 10px 0 10px 0;
+}
+.formulario  fieldset  legend{
+    font-size: 22px;
+    margin-bottom: 24px;
+    
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0;
+}
+.formulario fieldset{
+    border-radius: 8px;
+    border: none;
+}
+
+
+.dados-pessoais{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-elementos{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.elementos{
+    /* border: 1px solid green; */
+    width: 49%;
+}
+.dados-pessoais input, .elementos input, .elementos select{
+    height: 32px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 5px 0 5px;
+    border: none;
+    border-radius: 10px;
+}
+.radio-container, .check-container{
+    /* border: 1px solid; */
+    display: flex;
+}
+.radio, .check{
+    /* border: 1px solid red; */
+    height: 32px;
+    margin: 10px 20px 10px 20px;
+    padding: 0 5px 0 5px;
+    font-size: 20px;
+    
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.radio input, .check input{
+    width: 30px;
+}
+
+
+.formulario button{
+    height: 32px;
+    width: 160px;
+    margin-top: 12px;
+
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #5d15d1;
+    cursor: pointer;
+}
+.formulario button:hover{
+    background-color: #7c2bff;
+}
+
+.ofertas, .anuncios{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 32px;
+    padding: 3px;
+}
+.ofertas h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ofertas h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.ofertas h3 span{
+    font-weight: 900;
+}
+
+.container-fotos{
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 100%;
+}
+.card-foto, .anuncio-card{
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.maior-foto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+.maior-foto img{
+    width: 100%;
+    height: 100%;
+}
+.maior-foto figcaption{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    bottom: 1px;
+    padding: 3px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.menor-foto{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 3px;
+    position: relative;
+}
+.menor-foto img{
+    width: 100%;
+    height: 100%;
+}
+.menor-foto figcaption{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    bottom: 1px;
+    font-size: 17px;
+    padding: 3px;
+    color: #fff;
+}
+
+.anuncio-card{
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+.anuncio-card figure{
+    width: 100%;
+}
+.anuncio-card figure img{
+    width: 100%;
+    flex-grow: 1;
+}
+.card-legenda{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 0 10px 10px;
+    background-color: #fff;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-legenda h2{
+    font-size: 16px;
+}
+.card-legenda p{
+    font-size: 16px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.rodape{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+}
+.box-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.container-rodape{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 15px 0 15px 0;
+}
+.elementos-rodape{
+    margin: 5px 0 5px 0;
+}
+.elementos-rodape img{
+    width: 18px;
+    
+}
+.container-rodape h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
